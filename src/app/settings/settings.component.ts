@@ -3,6 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-settings',
   standalone: true,
-  template: '<p>settings works!</p>',
+  imports: [],
+  template: `<p>settings works!</p>`,
 })
-export class SettingsComponent {}
+export class SettingsComponent {
+
+}
